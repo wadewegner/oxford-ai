@@ -17,7 +17,7 @@ using Color = System.Drawing.Color;
 
 namespace OxfordAi.WebApi.Controllers
 {
-    public class VisionController : ApiController
+    public class ComputerVisionController : ApiController
     {
         private readonly string _storageConnectionString = ConfigurationManager.AppSettings["StorageConnectionString"];
         private readonly string _cloudVisionKey = ConfigurationManager.AppSettings["CloudVisionKey"];
